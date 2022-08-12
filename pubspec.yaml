@@ -1,0 +1,45 @@
+name: meal_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+
+  fonts:
+  - family: Raleway 
+    fonts: 
+      - asset: assets/fonts/Raleway-Regular.ttf
+      - asset: assets/fonts/Raleway-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/Raleway-Black.ttf
+  # - family: RobotoCondesed
+  #   fonts:
+  #     - asset: assets/fonts/RobotoCondensed-Light.tff
+  #       weight: 300
+  #     - asset: assets/fonts/RobotoCondensed-Italic.tff
+  #       style: italic
+ 
