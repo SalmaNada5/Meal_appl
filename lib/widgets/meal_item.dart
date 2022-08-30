@@ -73,7 +73,10 @@ class MealItem extends StatelessWidget {
                     topLeft: Radius.circular(15),
                     topRight: Radius.circular(15),
                   ),
-                  child: Image.network(imgUrl),
+                  child: FadeInImage(
+                    image: NetworkImage(imgUrl),
+                    placeholder: const AssetImage('assets/images/loading.jpg'),
+                  ),
                 ),
                 Positioned(
                   bottom: 20,
